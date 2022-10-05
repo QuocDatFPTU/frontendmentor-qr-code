@@ -1,0 +1,43 @@
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: #eee;
+}
+
+.card {
+  background-color: #fff;
+  width: 250px;
+  height: 400px;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 50px;
+  border-radius: 10px;
+}
+
+.card-head {
+  padding: 10px;
+}
+.card-head img {
+  width: 100%;
+
+  border-radius: 10px;
+}
+
+.card-title p {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0 auto;
+}
+
+.card-title {
+  padding: 10px 20px 0px 10px;
+}
+
+.card-content {
+  padding: 0px 20px 0px 20px;
+}
+
+.card-content p {
+  font-size: 15px;
+  color: hsl(220, 15%, 55%);
+}
